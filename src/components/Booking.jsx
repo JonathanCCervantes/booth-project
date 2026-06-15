@@ -3,11 +3,11 @@ import { MapPin, Phone, Facebook, Send, CheckCircle } from 'lucide-react'
 
 // ─── BUSINESS CONTACT CONFIG ──────────────────────────────────────────
 // Update these values with your actual business information.
-const BUSINESS_EMAIL = 'theboothproject@gmail.com'  // ← Change this
+const BUSINESS_EMAIL = 'theboothprojectx@gmail.com'  // ← Change this
 const BUSINESS_PHONE = '0908 103 1814'
 const BUSINESS_LOCATION = 'Pasig City, Metro Manila'
-const FACEBOOK_URL = 'https://facebook.com/theboothproject'  // ← Change this
-const TIKTOK_URL = 'https://tiktok.com/@theboothproject'    // ← Change this
+const FACEBOOK_URL = 'https://www.facebook.com/theboothprojectph'  // ← Change this
+const TIKTOK_URL = 'https://tiktok.com/@theboothprojectph'    // ← Change this
 // ─────────────────────────────────────────────────────────────────────
 
 const packageOptions = ['Package A – 4R Print', 'Package B – Strip Print', 'Package C – Polaroid Print', "I'm not sure yet"]
