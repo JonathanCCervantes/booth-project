@@ -1,4 +1,5 @@
 import React from 'react'
+import heroBg from '../assets/hero-booth.jpg'
 
 // ─── REPLACE YOUR HERO IMAGE HERE ────────────────────────────────────
 // 1. Place your image in /src/assets/ (e.g., hero-booth.jpg)
@@ -11,7 +12,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-cream">
       {/* Background — replace this div with your image */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#f5ede6] via-[#FAFAF8] to-[#eaf0e8] opacity-80" />
+      <img src={heroBg} alt="The Booth Project" className="absolute inset-0 w-full h-full object-cover" />
 
       {/* Decorative film-strip dots — the signature element */}
       <div className="absolute left-0 top-0 bottom-0 w-6 flex flex-col justify-around opacity-20 pointer-events-none">

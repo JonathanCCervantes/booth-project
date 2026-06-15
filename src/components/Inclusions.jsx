@@ -1,5 +1,6 @@
 import React from 'react'
 import { Camera, Palette, Frame, Droplets, Clock, Star } from 'lucide-react'
+import boothImg from '../assets/wooden-booth.jpg'
 
 // ─── REPLACE THE BOOTH IMAGE HERE ────────────────────────────────────
 // 1. Place your booth photo in /src/assets/ (e.g., wooden-booth.jpg)
@@ -65,7 +66,7 @@ export default function Inclusions() {
               <div className="text-center opacity-40">
                 <Camera size={48} className="mx-auto mb-3 text-charcoal" />
                 <p className="text-sm text-charcoal font-medium">
-                  Replace with your booth photo
+                  <img src={boothImg} alt="Our wooden selfie mirror booth" className="w-full h-full object-cover" />
                   <br />
                   <span className="text-xs font-normal">/src/assets/wooden-booth.jpg</span>
                 </p>
